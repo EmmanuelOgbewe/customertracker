@@ -1,0 +1,27 @@
+
+doctype html
+
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/index.css')
+    
+  body
+    h1(style={color : 'white', padding: '20px'})= message  
+    table(style={width : '100%'})
+     tr
+      th Name 
+      th Email 
+      th ID 
+     each customer in customers
+      tr
+        td= customer.name 
+        td= customer.email
+        td= customer.id
+        
+
+
+
+    
+
+
