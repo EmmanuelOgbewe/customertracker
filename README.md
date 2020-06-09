@@ -16,3 +16,7 @@ View appmodel.js for more details.
 
 ### Install dependencies: ###
  `npm install`
+### Run application: ###
+ `node app.js`
+ ### Run with nodemon: ###
+ `nodemon app.js`
