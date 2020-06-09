@@ -12,7 +12,7 @@ Basic customer database using Javascript, MySQL, Express and Node.
   3. email 
   4. created_at 
   
-See code for more details.
+View appmodel.js for more details.
 
 ### Install dependencies: ###
  `npm install`
